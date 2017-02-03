@@ -13,7 +13,8 @@ Use xml2enumeration.py to create the enumeration file for a requested HLA-gene
 on the command line type:
 python3 scriptName xmlFile genename(for example DPB1)
 
-Then use test4ambiguousGenotypes.py to search for possible ambiguous genotypes for your genepair and the gene features you want to examine
+Then use test4ambiguousGenotypes.py to search for possible ambiguous genotypes for your genepair and the 
+gene features you want to examine
 on the command line type:
 python3 scriptName alleleName1 alleleName2 features(example:5UTR,E1,I1,E2,3UTR) inputfile outputfile
-type allele names without the HLA-. example DPB1*13:01:01')
+type allele names without the HLA-. example DPB1*13:01:01'
